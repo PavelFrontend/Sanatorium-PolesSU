@@ -1,0 +1,8 @@
+$green: #339D71;
+$white: #fcfcfc;
+
+@mixin flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}

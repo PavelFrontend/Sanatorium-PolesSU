@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__row">
+				<a href="#" class="header__row-logo"><img src="./assets/icons/logo-icon.svg" alt="#"></a>
+				<p class="header__row-text">Санаторий-профилакторий Полесского государственного университета</p>
+			</div>
+			<div class="header__menu">
+				<nav class="header__navbar">
+					<div id="close-btn" class="fas fa-times"></div>
+					<a class="header__navbar-link" id="header__navbar-link1" href="#about">О нас</a>
+					<a class="header__navbar-link" id="header__navbar-link2" href="#services">Услуги</a>
+					<a class="header__navbar-link" id="header__navbar-link3" href="#shedule">Даты заездов</a>
+					<a class="header__navbar-link" id="header__navbar-link4" href="#contacts">Контакты</a>
+				</nav>
+				<div id="menu-btn" class="fas fa-bars"></div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="home">
+			<div class="home__container container">
+				<div class="home__img">
+					<div class="home__content">
+						<h3 class="home__content-title">г. Пинск, ул. Иркутско-Пинской дивизии, 46</h3>
+						<p class="home__content-text"> Учебно-медицинский центр ПолесГУ (территория спортивного комплекса)
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="about__container container">
+				<h1 class="about__title">Добро пожаловать в “Санаторий-профилакторий Полесского госсударственного
+					университета!”</h1>
+				<p class="about__text">Мы - структурное подразделение Полесского государственного университета, которое
+					предназначено для оказания лечебных и оздоровительных услуг студентам, обучающимся на дневной форме
+					получения образования. </p>
+				<p class="about__text">Студенческий санаторий-профилакторий оказывает медицинские услуги населению на
+					платной основе.</p>
+				<h2 class="about__subtitle title">Почему нас выбирают</h2>
+				<div class="about__row">
+					<div class="about__item1">
+						<img src="./assets/icons/about-icon1.svg" alt="#" class="about__item-icon1">
+						<h3 class="about__item-title1">Цена</h3>
+						<p class="about__item-text1">20 дней трёхразового питания в санатории- профилактории стоят 35 рублей,
+							что на 85 рублей дешевле питаниния в столовой.</p>
+						<p class="about__item-text1">Питание проходит в столовых университета, которые расположены по адресам:
+						</p>
+						<ul class="about__item-list1">
+							<li>г. Пинск, ул. Сергея Кирова, 24 (первый корпус университета);</li>
+							<li>г. Пинск, ул. Куликова, 27 (второй корпус университета);</li>
+							<li>г. Пинск, ул. Пушкина, 4 (третий корпус университета);</li>
+							<li>По выходным - спорт комплекс “Волна”: г. Пинск, ул. Иркутско-Пинской Дивизии, 46;</li>
+						</ul>
+						<div class="about__item-button1">
+							<p>Смотреть режим питания</p>
+							<button href="" class="about-button1"><img src="./assets/icons/about-button-icon.svg"
+									alt="#"></button>
+						</div>
+					</div>
+					<div class="about__item2">
+						<img src="./assets/icons/about-icon2.svg" alt="#" class="about__item-icon2">
+						<h3 class="about__item-title2">Услуги</h3>
+						<p class="about__item-text2">Санаторий-профилакторий оказывает широкий спектр медицинских услуг.</p>
+						<p class="about__item-text2">На каждого поступившего заводится история болезни, где отмечаются жалобы
+							при поступлении и рекомедации по лечению.</p>
+						<p class="about__item-text2">Для того, тобы попробовать одну из выше перечисленных услуг, вам
+							достаточно обратиться в Учебно-методический центр по адресу: г. Пинск, ул. Иркутско-Пинской
+							дивизии, 46.</p>
+						<p class="about__item-text2">Там вежливый и квалифицированный персонал сориентирует вас по всем
+							организационным вопросам.</p>
+						<div class="about__item-button2">
+							<p>Лица, имеющие преимущественное право для направления</p>
+							<button href="" class="about-button2"><img src="./assets/icons/about-button-icon.svg"
+									alt="#"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="menu">
+			<div class="menu__container container">
+				<img src="./assets/icons/close-btn-icon.svg" alt="#" class="menu__close">
+				<div class="menu__wrapper">
+					<div class="menu__item">
+						<div class="menu__item-name">
+							<p>Завтрак</p>
+						</div>
+						<div class="menu__item-time">
+							<img src="./assets/icons/time-icon.svg" alt="#">
+							<p>С 10:00</p>
+						</div>
+					</div>
+					<div class="menu__item">
+						<div class="menu__item-name">
+							<p>Обед</p>
+						</div>
+						<div class="menu__item-time">
+							<img src="./assets/icons/time-icon.svg" alt="#">
+							<p>С 12:00-15:00</p>
+						</div>
+					</div>
+					<div class="menu__item">
+						<div class="menu__item-name">
+							<p>Ужин</p>
+						</div>
+						<div class="menu__item-time">
+							<img src="./assets/icons/time-icon.svg" alt="#">
+							<p>С 16:00-17:00</p>
+						</div>
+					</div>
+				</div>
+				<p class="menu__title">Профилакторий</p>
+				<div class="menu__wrapper">
+					<div class="menu__item">
+						<div class="menu__item-name">
+							<p>Завтрак- обед</p>
+						</div>
+						<div class="menu__item-time">
+							<img src="./assets/icons/time-icon.svg" alt="#">
+							<p>С 12:00-14:00</p>
+						</div>
+					</div>
+					<div class="menu__item">
+						<div class="menu__item-name">
+							<p>Ужин</p>
+						</div>
+						<div class="menu__item-time">
+							<img src="./assets/icons/time-icon.svg" alt="#">
+							<p>С 18:00-20:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="students">
+			<div class="students__container container">
+				<img src="./assets/icons/close-btn-icon.svg" alt="#" class="students__close">
+				<h3 class="students__title">Преимущественным правом для направления в студенческий санаторий-профилакторий,
+					пользуются следующие обучающиеся:</h3>
+				<ul class="students__list">
+					<li>инвалиды;</li>
+					<li>нуждающиеся в реабилитационном лечении после перенесенных травм, оперативных вмешательств и
+						заболеваний;</li>
+					<li>состоящие на диспансерном учете;</li>
+					<li>часто и длительно болеющие;</li>
+					<li>беременные женщины в ранние сроки беременности;</li>
+					<li>доноры, систематически сдающие кровь;</li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="services" id="services">
+			<div class="services__container container">
+				<h2 class="services__title title">С чем мы работаем</h2>
+				<div class="services__item">
+					<img src="./assets/images/services-img1.jpg" alt="#" class="services__img">
+					<div class="services__content">
+						<h3 class="services__content-title">Профили лечения</h3>
+						<ul class="services__content-list">
+							<li>болезни органов дыхания;</li>
+							<li>болезни системы кровообращения;</li>
+							<li>болезни костно-мышечной системы и соединительной ткани.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="services__item">
+					<img src="./assets/images/services-img2.jpg" alt="#" class="services__img">
+					<div class="services__content">
+						<h3 class="services__content-title"> Оказываемые медицинские услуги</h3>
+						<ul class="services__content-list">
+							<li>гидротерапия (циркулярный и восходящий души, душ Шарко, подводный душ-массаж);</li>
+							<li>электропроцедуры (электрофорез, магнитотерапия, УВЧ терапия, лазеротерапия, амплипульстерапия,
+								диадинамотерапия, ультразвуковая терапия);</li>
+							<li>массаж;</li>
+							<li>светолечение;</li>
+							<li>ингаляционная терапия;</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="shedule" id="shedule">
+			<div class="shedule__container container">
+				<h2 class="shedule__title title">Следующий заезд</h2>
+				<div class="shedule__row">
+					<div class="shedule__item">
+						<h3 class="shedule__item-title date">С 13. 09. 2022 г.
+							По 30. 09. 2022 г.</h3>
+					</div>
+					<div class="shedule__item">
+						<h3 class="shedule__item-title">60 человек</h3>
+						<p class="shedule__item-text">Осталось:
+							25 мест из 60</p>
+						<button class="shedule__item-button button"><a href="#questions" id="shedule-button1">Задать
+								вопрос</a></button>
+					</div>
+					<div class="shedule__item">
+						<h3 class="shedule__item-title">18 дней отдыха</h3>
+						<p class="shedule__item-text">03.10
+							Санитарный день</p>
+						<button class="shedule__item-button button" id="shedule-button2"><a>График заездов</a></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="table">
+			<div class="table__container container">
+				<img src="./assets/icons/close-btn-icon.svg" alt="#" class="table__close">
+
+				<div class="table__wrapper">
+					<div class="table__head">
+						<div class="table__number">
+							<p>&nbsp;</p>
+						</div>
+						<div class="table__content-head">
+							<div class="table__content-item">
+								<p>Период заезда</p>
+							</div>
+							<div class="table__content-item">
+								<p>Количество отдыхающих</p>
+							</div>
+							<div class="table__content-item">
+								<p>Количество дней</p>
+							</div>
+						</div>
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>01</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>12.01-29.01</p>
+								<p>31.01</p>
+							</div>
+							<div class="table__content-item">
+								<p>20 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>02</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>10.02-27.02</p>
+								<p>28.02</p>
+							</div>
+							<div class="table__content-item">
+								<p>60 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>03</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>03.03-20.03</p>
+								<p>21.03</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>04</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>23.03-09.04</p>
+								<p>11.04</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>05</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>12.04-29.04</p>
+								<p>30.04</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>06</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>12.05-29.05</p>
+								<p>30.05</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>07</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>31.05-17.06</p>
+								<p>20.05</p>
+							</div>
+							<div class="table__content-item">
+								<p>30 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>08</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>13.09-30.09</p>
+								<p>03.10</p>
+							</div>
+							<div class="table__content-item">
+								<p>60 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>09</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>04.10-21.10</p>
+								<p>24.10</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>10</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>26.10-12.11</p>
+								<p>14.11</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>11</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>16.11-03.12</p>
+								<p>05.12</p>
+							</div>
+							<div class="table__content-item">
+								<p>80 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="table__item">
+						<div class="table__number">
+							<p>12</p>
+						</div>
+						<div class="table__content">
+							<div class="table__content-item">
+								<p>06.12-23.12</p>
+								<p>26.12</p>
+							</div>
+							<div class="table__content-item">
+								<p>70 человек</p>
+								<p>Санитарный день</p>
+							</div>
+							<div class="table__content-item">
+								<p>18 дней</p>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+		<section class="contacts" id="contacts">
+			<div class="contacts__container container">
+				<h2 class="contacts__title title">Контакты</h2>
+				<div class="contacts__row">
+					<div class="contacts__item">
+						<h3 class="contacts__item-title">Липский Ярослав Николаевич</h3>
+						<p class="contacts__item-phone">+375 33 618 48 52 </p>
+					</div>
+					<div class="contacts__item">
+						<h3 class="contacts__item-title">Старшая медсестра</h3>
+						<p class="contacts__item-text">Пацюк Инна Николаевна</p>
+						<p class="contacts__item-phone"> 31 65 72</p>
+					</div>
+					<div class="contacts__item">
+						<h3 class="contacts__item-title">Начальник учебно-медицинского центра</h3>
+						<p class="contacts__item-text">Людмила Мечиславовна Можейко</p>
+						<p class="contacts__item-phone"> 31 07 37</p>
+					</div>
+					<div class="contacts__item">
+						<h3 class="contacts__item-title">Физиотерапевтический кабинет</h3>
+						<p class="contacts__item-phone">+375 29 695 80 04</p>
+					</div>
+					<img src="./assets/images/contacts-tel-img.png" alt="#" class="contacts__img">
+				</div>
+
+			</div>
+		</section>
+
+		<section class="review">
+			<div class="review__container container">
+				<h2 class="review__title title"></h2>
+				<div class="swiper review__row">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide review__item">
+							<img src="./assets/icons/rewiew-person-icon.svg" alt="#" class="review__item-img">
+							<h3 class="review__item-title">Артем</h3>
+
+							<p class="review__item-text">Санаторий- профилакторий ПолесГУ - отличное место, в котором вы можете
+								поправить проблемы со здоровьем, воспользовавшись различными процедурами, а также вкусно и сытно
+								поесть, благодаря столовой, находящийся в шаговой доступности от универа. </p>
+
+						</div>
+						<div class="swiper-slide review__item">
+							<img src="./assets/icons/rewiew-person-icon.svg" alt="#" class="review__item-img">
+							<h3 class="review__item-title">Павел</h3>
+
+							<p class="review__item-text">Санаторий- профилакторий ПолесГУ - отличное место, в котором вы можете
+								поправить проблемы со здоровьем, воспользовавшись различными процедурами, а также вкусно и сытно
+								поесть, благодаря столовой, находящийся в шаговой доступности от универа. </p>
+
+						</div>
+						<div class="swiper-slide review__item">
+							<img src="./assets/icons/rewiew-person-icon.svg" alt="#" class="review__item-img">
+							<h3 class="review__item-title">Егор</h3>
+
+							<p class="review__item-text">Санаторий- профилакторий ПолесГУ - отличное место, в котором вы можете
+								поправить проблемы со здоровьем, воспользовавшись различными процедурами, а также вкусно и сытно
+								поесть, благодаря столовой, находящийся в шаговой доступности от универа. </p>
+
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<div class="image">
+			<img src="./assets/images/doctor-img.jpg" alt="#">
+		</div>
+
+		<section class="requirements">
+			<div class="requirements__container container">
+				<h2 class="requirements__title title">Что необходимо для того, чтобы к нам записаться</h2>
+				<div class="requirements__item">
+					<img src="./assets/images/requirements-img1.jpg" alt="#" class="requirements__img">
+					<div class="requirements__content">
+						<h3 class="requirements__content-title">2 медицинские справки у участкового терапевта </h3>
+						<ul class="requirements__content-list">
+							<li>справка о состоянии здоровья;</li>
+							<li>выписка из медицинских документов;</li>
+						</ul>
+						<p class="requirements__content-text">Для этого вам необходимо обратиться в студенческий медицинский
+							пункт по адресу: ул. Кирова, 24 (учебный корпус №1). </p>
+						<p class="requirements__content-text">При себе иметь данные флюорографии и девушкам - осмотр
+							гинеколога.
+							При наличии каких-либо заболеваний или проведенных ранее обследований, иметь с собой
+							соответствующую документацию (выписки, амбулаторные карты)
+						</p>
+					</div>
+
+				</div>
+				<div class="requirements__item">
+					<img src="./assets/images/requirements-img2.jpg" alt="#" class="requirements__img">
+					<div class="requirements__content">
+						<h3 class="requirements__content-title">Написать заявление </h3>
+						<p class="requirements__content-text">Напиcать его нужно в комиссии по оздоровлению студентов
+							(учебно-медицинский центр, каб. 305-306). </p>
+						<p class="requirements__content-text">В журнале зарегистрировать справку о состоянии здоровья
+						</p>
+					</div>
+
+				</div>
+				<div class="requirements__item">
+					<img src="./assets/images/requirements-img3.jpg" alt="#" class="requirements__img">
+					<div class="requirements__content">
+						<h3 class="requirements__content-title">Оплатить 15% от стоимости путевки </h3>
+						<p class="requirements__content-text">После этого вы получите путёвку в комиссии по оздоровлению
+							студентов.
+						</p>
+						<p class="requirements__content-text">С выпиской из медицинских документов и путёвкой прибыть в
+							студенческий санаторий согласно дате заезда (ул.Иркутско-Пинской дивизии, 46, Учебно-медицинский
+							центр ПолесГУ).
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="questions" id="questions">
+			<div class="questions__container container">
+				<div class="questions__row">
+					<div class="questions__content">
+						<img src="./assets/icons/tel-icon.svg" alt="#" class="questions__img">
+						<h3>Вы можете задать по телефону интересующий Вас вопрос</h3>
+					</div>
+					<a href="tel: +375 33 618 48 52" class="questions__button button">Связаться с нами</a>
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__item">
+				<a href="#about" class="footer__item-link">О нас</a>
+				<a href="#services" class="footer__item-link">Услуги</a>
+				<a href="#shedule" class="footer__item-link">Даты заездов</a>
+				<a href="#contacts" class="footer__item-link">Контакты</a>
+			</div>
+			<div class="footer__item">
+				<p class="footer__item-contact">+ 375 (165) 31 21 60</p>
+				<p class="footer__item-contact">Fax: + 375 (165) 31 21 95</p>
+				<p class="footer__item-contact">e-mail: box@polessu.by</p>
+			</div>
+			<div class="footer__item">
+				<p class="footer__item-text">ул. Днепровской флотилии, 23, 225710 Пинск, Брестская область, Республика
+					Беларусь</p>
+				<p class="footer__item-text">Приемная комиссия ПолесГУ, г. Пинск, ул.Пушкина, 4 (учебный корпус №3)
+					Тел.: (0165) 31-08-78, 65-00-41</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
